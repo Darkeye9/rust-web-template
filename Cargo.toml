@@ -1,0 +1,25 @@
+[package]
+name = "rust-web-template"
+version = "0.1.0"
+authors = ["Dark_eye <dark.eye9@gmail.com>"]
+
+[features]
+## create a feature in your app
+watch = ["handlebars-iron/watch"]
+
+[dependencies]
+iron = "*"
+router = "*"
+mount = "*"
+urlencoded = "*"
+staticfile = "*"
+handlebars-iron = "*"
+lazy_static = "*"
+regex = "*"
+time = "^0.1.35"
+rustc-serialize = "^0.3.19"
+clap = "^2"
+
+[dependencies.chrono]
+version = "0.2.22"
+features = ["rustc-serialize"]
